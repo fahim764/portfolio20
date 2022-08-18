@@ -1,0 +1,584 @@
+/*
+====================================
+Medium Screen - Others
+====================================
+*/
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+
+    .header-area {
+        background-position: right 20% top;
+    }
+
+    .hero-area {
+        padding: 120px 0 130px;
+    }
+    
+    .hero-title h2 {
+        font-size: 60px;
+    }
+
+    .hero-input {
+        display: block;
+    }
+
+    .hero-btn {
+        margin: 28px 0 0 0;
+    }
+
+    /* OUR FEATURES AREA START */
+
+    .features-area {
+        padding: 90px 0 50px;
+    }
+
+    .started-cnt {
+        min-height: 400px;
+    }
+
+    .count-number h2 {
+        font-size: 45px;
+    }
+
+    .count-number span i {
+        font-size: 67px;
+    }
+
+    .team-content {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        overflow: hidden;
+    }
+
+    .team-part {
+        margin: 30px 0;
+    }
+
+   .flickity-prev-next-button.next {
+        right: 80%; 
+   }
+
+   .flickity-page-dots {
+    bottom: 40%;
+    left: -68%;
+    }
+
+    .news-btn {
+        right: 0;
+    }
+
+    .late-cnt3 h2 {
+        padding: 0 50px 0 0;
+    }
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+/*
+====================================
+Small Screen - Tablate
+====================================
+*/
+@media screen and (min-width: 768px) and (max-width: 991px) {
+
+    /* HEADER ARSEA START */
+
+    .nav-items ul {
+        display: none;
+    }
+
+    .menu-btn {
+        display: block;
+    }
+
+    .team-content {
+        display: block;
+    }
+
+    .header-area {
+        background-position: right 55% top;
+    }
+
+    .hero-area {
+        padding: 80px 0 60px;
+    }
+
+    .hero-title h2 {
+        font-size: 50px;
+    }
+    
+    .hero-cnt {
+        padding-left:0;
+    }
+
+    .hero-cnt p {
+        max-width: 310px;
+        width: 100%;
+        margin: 30px 0;
+    }
+
+    .hero-input {
+        display: block;
+    }
+
+    .hero-btn {
+        margin: 30px 0 40px;
+    }
+
+    /* ABOUT AREA START */
+
+    .about-area {
+        padding: 90px 0;
+    }
+
+    .about-area .col-order1 {
+        order: 2;
+    }
+
+    .about-area .col-order2{
+        order: 1;
+    }
+
+    .about-area a {
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+
+    /* OUR FEATURES AREA START */
+
+    .features-area {
+        padding: 90px 0 60px;
+    }
+
+    .line-img  {
+        right: -100px;
+        top: -10px;
+        max-width: 170px;
+    }
+
+    .started-cnt p {
+        padding: 0 10px;
+    }
+
+    .started-cnt {
+        min-height: 400px;
+    }
+
+    /* COUNTER AREA START */
+
+    .counter-area {
+        padding: 108px 0 80px;
+    }
+
+    .counter-part {
+        margin-bottom: 30px;
+    }
+
+    /* TEAM AREA STARTED */
+
+    .team-area {
+        padding: 110px 0 60px;
+    }
+    
+    .team-content {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+
+    .team-part {
+        margin: 30px;
+    }
+
+    /* TESTIMONIAL AREA */
+
+    .testimonial-area {
+        padding: 100px 0 200px;
+    }
+
+    .quote-img {
+        text-align: center;
+        margin-left: 0;
+    }
+
+    .carousel-cell p {
+        font-size: 18px;
+        padding: 0 50px;
+        text-align: center;
+    }
+
+    /* ---- page dots ---- */
+
+    .flickity-page-dots {
+        bottom: -55%;
+        left: 0%;
+    }
+
+    .flickity-prev-next-button {
+        top: 50%;
+    }
+
+    .flickity-prev-next-button:focus {
+        outline: none !important;
+        border: none !important;
+        border-color: none !important;
+        outline-color: none !important;
+    }
+    
+    .flickity-prev-next-button.previous { 
+        left: 0%; 
+    }
+
+    .flickity-prev-next-button.next {
+         right: 0%;
+     }
+
+     
+    /* NEWSLETTER AREA START */
+
+
+     .news-btn {
+        right: 0;
+    }
+
+    .news-btn a {
+        padding: 14px 10px;
+    }
+
+    /* LATEST AREA START */
+
+    .latest-part {
+        max-height: 500px;
+    }
+    
+    .admin-part {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+    .admin-part2 {
+        margin-bottom: 30px;
+    }
+
+    /* FOOTER */
+
+    .footer-menu {
+        margin-bottom: 30px;
+    }
+    
+
+   
+
+
+
+    
+    
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+/*
+====================================
+Small Screen - Mobile
+====================================
+*/
+@media screen and (max-width: 767px) {	
+
+    /* HEADER ARSEA START */
+
+    .nav-items ul {
+        display: none;
+    }
+
+    .menu-btn {
+        display: block;
+    }
+
+    .team-content {
+        display: block;
+    }
+
+    .header-area {
+        background-position: right 55% top;
+    }
+
+    .hero-area {
+        padding: 50px 0 25px;
+    }
+    
+    .hero-title h2 {
+        font-size: 40px;
+        margin: 0;
+    }
+
+    .hero-cnt {
+        padding-left:0;
+    }
+
+    .hero-cnt p {
+        margin: 30px 0;
+    }
+
+    .hero-input {
+        display: block;
+    }
+
+    .hero-btn {
+        margin: 40px 0;
+    }
+
+    /* ABOUT AREA START */
+
+    .about-area {
+        padding: 90px 0;
+    }
+
+    .about-area .col-order1 {
+        order: 2;
+    }
+
+    .about-area .col-order2{
+        order: 1;
+    }
+
+    .about-area a {
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+
+    /* OUR FEATURES AREA START */
+
+    .features-area {
+        padding: 80px 0 50px;
+    }
+
+    /* GET STARTED AREA START */
+
+    .started-area {
+        padding: 80px 0;
+    }
+    
+    .line-img  {
+       display: none;
+    }
+
+    .started-title p {
+        margin: 15px 0 10px 0;
+    }
+
+    .started-cnt {
+        margin-top: 40px; 
+    }
+
+    /* COUNTER AREA START */
+
+    .counter-area {
+        padding: 80px 0 60px;
+    }
+
+    .counter-part {
+        margin-bottom: 30px;
+    }
+
+    .count-number span i {
+        font-size: 65px;
+    }
+
+    /* TEAM AREA STARTED */
+
+    .team-area {
+        padding: 80px 0 100px;
+    }
+
+    .team-part {
+        margin: 30px 0 0 0;
+    }
+
+    /* TESTIMONIAL AREA */
+
+    .testimonial-area {
+        padding: 100px 0 200px;
+    }
+
+    .quote-img {
+        text-align: center;
+        margin-left: 0;
+    }
+
+    .carousel-cell p {
+        font-size: 18px;
+        padding: 0 50px;
+        text-align: center;
+    }
+
+    /* ---- page dots ---- */
+
+    .flickity-page-dots {
+        bottom: -40%;
+        left: 0%;
+    }
+
+    .flickity-prev-next-button {
+        top: 50%;
+    }
+
+    .flickity-prev-next-button:focus {
+        outline: none !important;
+        border: none !important;
+        border-color: none !important;
+        outline-color: none !important;
+    }
+    
+    .flickity-prev-next-button.previous { 
+        left: 0%; 
+    }
+
+    .flickity-prev-next-button.next {
+         right: 0%;
+     }
+
+     /* NEWSLETTER AREA START */
+
+    .newsletter-area {
+        padding: 45px 0;
+    }
+
+    .newsletter-cnt{
+        text-align: center;
+    }
+
+    .news-btn {
+        position: relative;
+        text-align: center;
+        margin-top: 30px;
+    }
+
+    .news-btn a {
+       border-radius: 50px;
+       text-align: center;
+    }
+
+    
+    /* LATEST NEWS START */
+
+    .latest-area {
+        padding: 60px 0 80px;
+    }
+
+    .latest-cnt {
+        padding: 20px 12px 10px;
+    }
+
+    /* FOOTER */
+
+    .footer-social {
+        text-align: center;
+        margin-top: 30px;
+    }
+
+    .footer-social ul li {
+        margin: 0 auto;
+    }
+
+        
+}
+
+/*
+====================================
+Xtra Small Screen - Small Mobile
+====================================
+*/
+@media screen and (max-width: 576px) {
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
